@@ -32,3 +32,9 @@ body{
     grid-template-columns: 1.05fr 1fr;
     gap: 18px;
 }
+ @media (max-width: 820px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
