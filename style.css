@@ -26,5 +26,9 @@ body{
     max-width: 1000px;
     margin: 32px auto 64px;
     padding: 0 18px;
-    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 18px;
 }
