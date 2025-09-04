@@ -22,3 +22,9 @@ body{
     background: var(--bg);
     line-height: 1.55;
 }
+.wrap{
+    max-width: 1000px;
+    margin: 32px auto 64px;
+    padding: 0 18px;
+    
+}
