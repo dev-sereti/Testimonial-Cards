@@ -46,3 +46,9 @@ body{
     background: var(--bg);
     line-height: 1.6;
 }
+/* Layout*/
+.wrap{
+    max-width: 700px;
+    margin: 40px auto 72px;
+    padding-inline: 16px;
+}
