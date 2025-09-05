@@ -195,3 +195,11 @@ photo img{
   max-width: 72ch;
   color: #3b3b3b;
 }
+.card-big-bubble-center .chooser{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  max-width: 360px;
+  margin: 18px auto 0;
+}
