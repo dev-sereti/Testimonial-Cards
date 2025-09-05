@@ -171,3 +171,9 @@ photo img{
   font-size: 1.6rem;
   color: #fff;
 }
+
+.card-dark-rating .role{
+  color: #b6bcc6;
+  letter-spacing: .2px;
+  margin-bottom: 8px;
+}
