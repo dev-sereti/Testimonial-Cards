@@ -55,3 +55,11 @@ body{
     align-items: start;
 
 }
+/* Shared*/
+.card-dark-quote,
+.card-bubble,
+.card-dark-rating,
+.card-big-bubble-center{
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+}
