@@ -211,3 +211,29 @@ photo img{
   line-height: 1;
   padding: 6px 8px;
 }
+.card-big-bubble-center .thumbs{
+  display: 
+  flex; 
+  align-items:center; 
+  gap: 12px;
+}
+.card-big-bubble-center .thumbs .avatar{
+  width: 44px; height: 44px; border: 2px solid #fff;
+  opacity: .7;
+}
+.card-big-bubble-center .thumbs .avatar.active{
+  opacity: 1;
+  outline: 2px solid #111; outline-offset: 0;
+}
+
+.card-big-bubble-center .who{
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+  bottom: -54px; /* outside the big card */
+  display: grid; justify-items: center; gap: 6px;
+}
+.card-big-bubble-center .who .avatar{ width: 46px; height: 46px; border: 2px solid #fff; }
+.card-big-bubble-center .who .name{ color: var(--text); }
+
+/* Spacing between rows where pop-outs extend */
+.card-dark-quote{ margin-bottom: 28px; }
