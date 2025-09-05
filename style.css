@@ -237,7 +237,10 @@ photo img{
   justify-items: center; 
   gap: 6px;
 }
-.card-big-bubble-center .who .avatar{ width: 46px; height: 46px; border: 2px solid #fff; }
+.card-big-bubble-center .who .avatar{ 
+    width: 46px; 
+    height: 46px; 
+    border: 2px solid #fff; }
 .card-big-bubble-center .who .name{ color: var(--text); }
 
 /* Spacing between rows where pop-outs extend */
