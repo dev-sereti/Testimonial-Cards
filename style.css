@@ -156,3 +156,18 @@ photo img{
   padding: 22px 24px;
   border-radius: 20px;
 }
+.card-dark-rating .stars{
+  display: flex; 
+  gap: 6px; 
+  color: var(--primary); 
+  margin-bottom: 6px;
+}
+.card-dark-rating .star{ 
+    width: 22px; 
+    height: 22px; 
+}
+.card-dark-rating h3{
+  margin: 4px 0 2px;
+  font-size: 1.6rem;
+  color: #fff;
+}
