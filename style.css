@@ -48,3 +48,10 @@ body{
     margin: 40px auto 72px;
     padding-inline: 16px;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    align-items: start;
+
+}
