@@ -90,5 +90,14 @@ body{
 .card-dark-quote p{
     margin: 0;
     font-size: 1.02em;
-    
+
+}
+.card-dark-quote .author-popout{
+    position: absolute;
+    left: 18px;
+    bottom: -46px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text);
 }
