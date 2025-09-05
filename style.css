@@ -118,5 +118,29 @@ body{
 .card-bubble p{
     margin: 0 0 10px;
     grid-column: 1/-1;
-    
+
+}
+.card-bubble .author{
+    grid-row: 2; 
+    grid-column: 1;
+    align-self: center;
+}
+.card-bubble .author .avatar{
+    width: 54px;
+    height: 54px;
+}
+.card-bubble >div:nth-of-type(2){
+
+    /* container with name/title right of the avatar */
+  grid-row: 2; 
+  grid-column: 2;
+  align-self: center;
+}
+/* 3) Photo tile (middle-left) */
+.photo{
+  margin: 0; 
+  overflow: hidden; 
+  border-radius: 20px;
+  background: #ddd;
+  aspect-ratio: 1 / 1;   /* squareish look like the screenshot */
 }
