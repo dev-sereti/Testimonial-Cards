@@ -250,3 +250,16 @@ photo img{
 .card-dark-quote{ 
     margin-bottom: 28px; 
 }
+/* Responsive */
+@media (max-width: 820px){
+  .grid{ grid-template-columns: 1fr; }
+  .card-big-bubble-center{ grid-column: 1; }
+  .card-dark-quote .author-popout{ position: static; margin-top: 16px; }
+  .card-dark-quote{ padding-bottom: 28px; }
+  .card-big-bubble-center{
+    padding-bottom: 28px;
+  }
+  .card-big-bubble-center .who{
+    position: static; transform: none; margin-top: 16px;
+  }
+}
