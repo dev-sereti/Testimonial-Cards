@@ -240,8 +240,11 @@ photo img{
 .card-big-bubble-center .who .avatar{ 
     width: 46px; 
     height: 46px; 
-    border: 2px solid #fff; }
-.card-big-bubble-center .who .name{ color: var(--text); }
+    border: 2px solid #fff; 
+}
+.card-big-bubble-center .who .name{ 
+    color: var(--text); 
+}
 
 /* Spacing between rows where pop-outs extend */
 .card-dark-quote{ margin-bottom: 28px; }
