@@ -190,3 +190,8 @@ photo img{
   text-align: center;
   border-radius: 26px;
 }
+.card-big-bubble-center p{
+  margin: 6px auto 20px;
+  max-width: 72ch;
+  color: #3b3b3b;
+}
