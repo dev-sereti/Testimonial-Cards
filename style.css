@@ -203,3 +203,11 @@ photo img{
   max-width: 360px;
   margin: 18px auto 0;
 }
+.card-big-bubble-center .nav{
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1;
+  padding: 6px 8px;
+}
