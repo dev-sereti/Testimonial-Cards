@@ -115,3 +115,8 @@ body{
     grid-template-columns: auto 1fr;
     gap: 6px 12px;
 }
+.card-bubble p{
+    margin: 0 0 10px;
+    grid-column: 1/-1;
+    
+}
