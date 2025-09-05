@@ -218,7 +218,9 @@ photo img{
   gap: 12px;
 }
 .card-big-bubble-center .thumbs .avatar{
-  width: 44px; height: 44px; border: 2px solid #fff;
+  width: 44px; 
+  height: 44px; 
+  border: 2px solid #fff;
   opacity: .7;
 }
 .card-big-bubble-center .thumbs .avatar.active{
