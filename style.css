@@ -86,5 +86,9 @@ body{
     color:#fff;
     padding: 28px 26px 76px;
     border-radius: 20px;
-
+}
+.card-dark-quote p{
+    margin: 0;
+    font-size: 1.02em;
+    
 }
