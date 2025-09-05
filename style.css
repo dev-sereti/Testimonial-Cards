@@ -63,3 +63,6 @@ body{
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-1);
 }
+.name{
+    font-weight: 600;
+}
