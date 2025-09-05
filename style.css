@@ -247,4 +247,6 @@ photo img{
 }
 
 /* Spacing between rows where pop-outs extend */
-.card-dark-quote{ margin-bottom: 28px; }
+.card-dark-quote{ 
+    margin-bottom: 28px; 
+}
