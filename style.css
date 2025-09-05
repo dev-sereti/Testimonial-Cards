@@ -104,3 +104,14 @@ body{
 .card-dark-quote .author-popout .avatar{
     width: 58px; height: 58px;
 }
+
+/* Light message bubble with inline author (top-right) */
+
+.card-bubble{
+    background: var(--card);
+    border: 2px solid var(--border);
+    padding: 22px 22px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 12px;
+}
