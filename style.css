@@ -181,3 +181,12 @@ photo img{
   margin: 0;
   color: #e7e7ea;
 }
+/*Big bubble with centered content (bottom; spans both columns) */
+.card-big-bubble-center{
+  grid-column: 1 / -1;
+  background: var(--card);
+  border: 2px solid var(--border);
+  padding: 26px 28px 76px; /* extra bottom space for the outside name */
+  text-align: center;
+  border-radius: 26px;
+}
