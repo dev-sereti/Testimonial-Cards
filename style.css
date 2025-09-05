@@ -230,9 +230,12 @@ photo img{
 
 .card-big-bubble-center .who{
   position: absolute;
-  left: 50%; transform: translateX(-50%);
+  left: 50%; 
+  transform: translateX(-50%);
   bottom: -54px; /* outside the big card */
-  display: grid; justify-items: center; gap: 6px;
+  display: grid; 
+  justify-items: center; 
+  gap: 6px;
 }
 .card-big-bubble-center .who .avatar{ width: 46px; height: 46px; border: 2px solid #fff; }
 .card-big-bubble-center .who .name{ color: var(--text); }
